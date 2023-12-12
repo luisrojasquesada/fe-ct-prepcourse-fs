@@ -1,0 +1,42 @@
+.fondo {
+    background-color: wheat;
+}
+.miTexto{
+    font-size: 1em;
+    color: black;
+}
+
+#principal{
+    font-size: 70px;
+    
+}
+
+.imagenes{
+    width: 500px;
+}
+#titulos{
+    border: 2px solid black;
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+    transition: 1s;
+}
+#titulos:hover{
+    background-color: azure;
+}
+
+.nombre{
+    font-size: 2em;
+    color: darkgrey;
+}
+.tarjetas{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 2%;
+    transition: 1s;
+}
+
+.tarjetas:hover{
+    background-color: blanchedalmond;
+}
