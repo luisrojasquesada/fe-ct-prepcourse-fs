@@ -15,11 +15,11 @@
     width: 500px;
 }
 #titulos{
-    border: 2px solid black;
     width: 60vw;
     margin: auto;
     padding: 3em;
     transition: 1s;
+    
 }
 #titulos:hover{
     background-color: azure;
@@ -32,11 +32,26 @@
 .tarjetas{
     border: 2px solid black;
     width: fit-content;
-    padding: 0px 1em 0px 1em;
+    padding: 1em;
     border-radius: 2%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
 }
 
 .tarjetas:hover{
     background-color: blanchedalmond;
+}
+
+#cards-container{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid black;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 }
