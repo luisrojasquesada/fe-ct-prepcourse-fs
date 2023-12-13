@@ -3,6 +3,17 @@ function sumarHastaNConBreak(n) {
   // Devuelve la suma de todos los números desde 1 hasta n.
   // Si la suma supera a 100, detén el bucle usando break.
   // Tu código:
+  if (!Number.isInteger(n) || n < 1) {
+    return "Debe ser un número entero positivo.";
+  }
+  let suma = 0
+  for (let i = 1; i <= n; i++) {
+    suma += i;
+    if (suma > 100){
+      break;
+    }
+  }
+  return suma;
 }
 
 module.exports = sumarHastaNConBreak;
